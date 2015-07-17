@@ -1,0 +1,147 @@
+@import url(" http://fonts.googleapis.com/css?family=Jolly+Lodger");
+@import url(" http://fonts.googleapis.com/css?family=Oxygen");
+
+
+
+.container {
+  margin: auto;
+  z-index:1001010;
+  opacity:1;
+  position:absolute;
+  
+  
+}
+
+* {margin: 0; padding: 0;}
+
+body {
+  margin: auto;
+ opacity:1;
+  z-index:-1;
+}
+#canvas {
+float:left;
+ display: block;
+  z-index:-10;
+ 
+}
+
+
+#story{
+  border: black 1px;
+  z-index:100;
+}
+
+body {
+  margin:auto;
+  
+  background: url(" http://cdn.allsummitcounty.com/images/content/5648_6930_Copper_Mountain_Ski_Resort_md.jpg");
+  background-size: cover;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment : fill;
+  background-repeat: no-repeat;
+ background-color:grey;
+
+}
+
+#title-box {
+  opacity:0.8;
+  background-color: rgb(219, 237, 255);
+  color: black;
+  border-radius:25px;
+}
+
+.row {
+  margin-left:100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index:10;
+}
+
+#header {
+  background-color: rgb(219, 237, 255);
+  color: black;
+  font-family: 'Jolly Lodger', sans-serif;
+  border-radius:25px;
+  opacity:1;
+  z-index:3;
+  
+}
+
+#story {
+  text-align:center;
+  opacity:0.8;
+  background-color: rgb(219, 237, 255);
+  color: rgb(0,17,53);
+  font-family: 'Oxygen', sans-serif;
+  padding: 20px;
+  border-radius:25px;
+  display:block;
+  margin:auto;
+}
+
+img {
+  width: 100%;
+}
+
+.button {
+  background-color: rgb(219, 237, 255);
+  color: black;
+  word-wrap: break-word;
+}
+
+.button:hover{
+  background:linear-gradient(#9CE0F9,#5FD1FB);
+}
+#death{
+  display:block;
+  margin:auto;
+  margin-left: 100px;
+   text-align:center;
+  color: #430C0C;
+  font-family: 'Jolly Lodger', sans-serif;
+  padding: 5px;
+  border-radius:25px;
+ opacity:0.8;
+  background-color:#FBA4B4;
+  
+}
+.pics {
+
+   border-radius:25px;
+  display:block;
+  margin:auto;
+opacity:.8;
+  width: 200px;
+   height: 250px;
+    border-color:#B5D5DD;
+  padding:5px;
+}
+#canvas-wrap{position:relative}
+#overlay{position:absolute; top:0px; left:0px;}
+
+#crash{
+  padding:5px;
+  display:block;
+  margin:auto;
+  opacity:.8;
+   width: 150px;
+  height:250px;
+     border-color:#B5D5DD;
+  border-width:5px;
+  border-radius:25px;
+}
+#win{
+display:block;
+  margin:auto;
+  margin-left: 100px;
+   text-align:center;
+  color: #05641E;
+  font-family: 'Jolly Lodger', sans-serif;
+  padding: 5px;
+  border-radius:25px;
+ opacity:0.8;
+  background-color:#23EE4E;
+}
